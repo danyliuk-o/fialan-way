@@ -1,0 +1,35 @@
+@font-face {
+    font-family: 'Solomon Sans Book';
+    src: url('../fonts/Solomon-Sans-Book.eot');
+    src: url('../fonts/Solomon-Sans-Book.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Solomon-Sans-Book.woff2') format('woff2'),
+        url('../fonts/Solomon-Sans-Book.woff') format('woff'),
+        url('../fonts/Solomon-Sans-Book.ttf') format('truetype'),
+        url('../fonts/Solomon-Sans-Book.svg#Solomon-Sans-Book') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Solomon Sans Semi Bold';
+    src: url('../fonts/Solomon-Sans-SemiBold.eot');
+    src: url('../fonts/Solomon-Sans-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Solomon-Sans-SemiBold.woff2') format('woff2'),
+        url('../fonts/Solomon-Sans-SemiBold.woff') format('woff'),
+        url('../fonts/Solomon-Sans-SemiBold.ttf') format('truetype'),
+        url('../fonts/Solomon-Sans-SemiBold.svg#Solomon-Sans-SemiBold') format('svg');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Solomon Sans';
+    src: url('../fonts/Solomon-Sans-Bold.eot');
+    src: url('../fonts/Solomon-Sans-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Solomon-Sans-Bold.woff2') format('woff2'),
+        url('../fonts/Solomon-Sans-Bold.woff') format('woff'),
+        url('../fonts/Solomon-Sans-Bold.ttf') format('truetype'),
+        url('../fonts/Solomon-Sans-Bold.svg#Solomon-Sans-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}

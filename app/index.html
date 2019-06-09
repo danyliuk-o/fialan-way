@@ -1,0 +1,1049 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Road</title>
+    <meta name="theme-color" content="#000" />
+    <link rel="stylesheet" href="css/common.min.css" />
+  </head>
+  <body>
+    <header class="header position-fixed">
+      <div class="container">
+        <div class="d-header">
+          <div class="row">
+            <div class="col-2 px-2">
+              <div class="header-item">
+                <a href="#phase1" class="header__link">
+                  <img
+                    src="img/header/header_phase-red.png"
+                    alt="Этап 1"
+                    class="header__link-img"
+                  />
+                  <h3 class="header__link-title">Этап 1.</h3>
+                  <p class="header__link-par">Определить товары для продажи</p>
+                </a>
+              </div>
+            </div>
+            <div class="col-2 px-2">
+              <div class="header-item">
+                <a href="#phase2" class="header__link">
+                  <img
+                    src="img/header/header_phase-orange.png"
+                    alt="Этап 2"
+                    class="header__link-img"
+                  />
+                  <h3 class="header__link-title">Этап 2.</h3>
+                  <p class="header__link-par">Оценить прибыль</p>
+                </a>
+              </div>
+            </div>
+            <div class="col-2 px-2">
+              <div class="header-item">
+                <a href="#phase3" class="header__link">
+                  <img
+                    src="img/header/header_phase-yellow.png"
+                    alt="Этап 3"
+                    class="header__link-img"
+                  />
+                  <h3 class="header__link-title">Этап 3.</h3>
+                  <p class="header__link-par">Найти и проверить поставщика</p>
+                </a>
+              </div>
+            </div>
+            <div class="col-2 px-2">
+              <div class="header-item">
+                <a href="#phase4" class="header__link">
+                  <img
+                    src="img/header/header_phase-green.png"
+                    alt="Этап 4"
+                    class="header__link-img"
+                  />
+                  <h3 class="header__link-title">Этап 4.</h3>
+                  <p class="header__link-par">
+                    Договориться и зафиксировать условия
+                  </p>
+                </a>
+              </div>
+            </div>
+            <div class="col-2 px-2">
+              <div class="header-item">
+                <a href="#phase5" class="header__link">
+                  <img
+                    src="img/header/header_phase-blue.png"
+                    alt="Этап 5"
+                    class="header__link-img"
+                  />
+                  <h3 class="header__link-title">Этап 5.</h3>
+                  <p class="header__link-par">
+                    Принять товар, оценить качество
+                  </p>
+                </a>
+              </div>
+            </div>
+            <div class="col-2 px-2">
+              <div class="header-item">
+                <a href="#phase6" class="header__link">
+                  <img
+                    src="img/header/header_phase-darkblue.png"
+                    alt="Этап 6"
+                    class="header__link-img"
+                  />
+                  <h3 class="header__link-title">Этап 6.</h3>
+                  <p class="header__link-par">Продать, получить прибыль</p>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="m-header">
+        <div class="container">
+          <div class="m-header__title m-header__title">
+            <img
+              class="m-header__title-img"
+              src="img/header/header_phase-red.png"
+              alt=""
+            />
+            <p id="header-title" class="m-header__title-text"></p>
+          </div>
+          
+        </div>
+      </div>
+      <div class="hamburger">
+        <div class="hamburger-link" data="hamburger-menu" id="hamb-icon">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+      <ul id="myList">
+        <li class="rolldown-item" style="animation-delay: 0s;">
+          <a class="rolldown-link" href="#phase1"
+            ><img src="img/header/header_phase-red.png" alt="" />
+            <p>Этап 1.</p></a
+          >
+        </li>
+        <li class="rolldown-item" style="animation-delay: 0.25s;">
+          <a class="rolldown-link" href="#phase2"
+            ><img src="img/header/header_phase-orange.png" alt="" />
+            <p>Этап 2.</p></a
+          >
+        </li>
+        <li class="rolldown-item" style="animation-delay: 0.5s;">
+          <a class="rolldown-link" href="#phase3"
+            ><img src="img/header/header_phase-yellow.png" alt="" />
+            <p>Этап 3.</p></a
+          >
+        </li>
+        <li class="rolldown-item" style="animation-delay: 0.75s;">
+          <a class="rolldown-link" href="#phase4"
+            ><img src="img/header/header_phase-green.png" alt="" />
+            <p>Этап 4.</p></a
+          >
+        </li>
+        <li class="rolldown-item" style="animation-delay: 1s;">
+          <a class="rolldown-link" href="#phase5"
+            ><img src="img/header/header_phase-blue.png" alt="" />
+            <p>Этап 5.</p></a
+          >
+        </li>
+        <li class="rolldown-item" style="animation-delay: 1.25s;">
+          <a class="rolldown-link" href="#phase6"
+            ><img src="img/header/header_phase-darkblue.png" alt="" />
+            <p>Этап 6.</p></a
+          >
+        </li>
+      </ul>
+    </header>
+    <main class="main">
+      <section class="banner">
+        <div class="container px-0">
+          <div class="row">
+            <div class="col-xl-6 col-md-7">
+              <div class="banner-text">
+                <h1 class="banner__title">Пошаговая инструкция</h1>
+                <p class="banner__subtitle">по бизнесу с Китаем</p>
+                <a class="banner__link connect-link" href="#phase1">Старт</a>
+
+                <img
+                  class="road-img"
+                  src="img/background/road.png"
+                  alt="Экскурсия"
+                />
+              </div>
+            </div>
+            <div class="col-xl-6 col-md-5 d-none d-md-block">
+              <div class="banner__img">
+                <img src="img/banner_pic.png" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+      <section class="phase-1 phase" id="phase1">
+        <div class="container">
+          <div class="phase__top">
+            <img
+              src="img/Placeholders/red.svg"
+              alt="Этап 1"
+              class="phase__top-img rotate-in-ver1"
+              style="width: 77px;"
+            />
+            <h2 class="phase__top-title">Этап 1.</h2>
+            <p class="phase__top-subtitle">Определить товары для продажи</p>
+          </div>
+          <div class="row">
+            <div class="phase__block phase-1__block-1" data-aos="fade-right">
+              <div class="row">
+                <div class="col-lg-6">
+                  <img class="w-100" src="img/phase1_pic.png" alt="Этап 1" />
+                </div>
+                <div class="col-lg-6">
+                  <p class="phase__block_subtitle">
+                    <span
+                      ><strong
+                        >Первое что необходимо это четко понять какой товар Вы
+                        хотите продавать.
+                      </strong></span
+                    >
+                    Подумайте, в каких товарах у Вас есть экспертность? Что было
+                    бы интересно продавать, что доставляет удовольствие?
+                  </p>
+                  <p class="phase__block_subtitle">
+                    <span
+                      ><strong
+                        >Проведите анализ внутреннего рынка.
+                      </strong></span
+                    >
+                    Посмотрите какие товары пользуются популярностью. Какие
+                    компании ими торгуют, как у них построены продажи, какие
+                    цены? Какие есть аналоги на рынке, чем Вы можете отличаться?
+                    Можно изучить сайты-скидочники обращая внимание на
+                    количество продаж конкретных товаров.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="phase__block phase-1__block-2" data-aos="fade-right">
+                <p class="phase__block_subtitle">
+                  <span
+                    ><strong>Держите фокус в одном направлении.</strong></span
+                  >
+                  Выберите какой-то один товар. Вы должны сконцентрироваться на
+                  чем-то одном чтобы максимально тщательно проработать
+                  направление.
+                </p>
+
+                <p class="phase__block_subtitle">
+                  <span
+                    ><strong
+                      >При определении товара с которым планируете работать
+                      определите следующие критерии:</strong
+                    ></span
+                  >
+                  сложность в использовании, ограничения по возрасту,
+                  необходимость в послепродажном сервисе, средний срок службы,
+                  возможность давать гарантию.
+                </p>
+                <div class="text-center">
+                  <img src="img/phase1_pic2.png" alt="" />
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="phase__block phase-1__block-3" data-aos="fade-left">
+                <div class="text-center">
+                  <img src="img/phase1_pic3.png" alt="" />
+                </div>
+                <p class="phase__block_subtitle phase-1__block_subtitle">
+                  <span><strong>Идеи по товарам .</strong></span>
+                  можно черпать на таких иностранных сайтах как amazon.com,
+                  ebay.com, aliexpress.com и др. изучая разделы с распродажами и
+                  ТОП-продаж.
+                </p>
+
+                <p class="phase__block_subtitle phase-1__block_subtitle">
+                  <span
+                    ><strong
+                      >Разумным будет отталкиваться от Ваших возможностей по
+                      реализации. </strong
+                    ><br
+                  /></span>
+
+                  Каждая группа товаров имеет свои тонкости в способах
+                  продвижения и непосредственной продажи клиентам.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12">
+              <div class="phase__block phase-1__block-4" data-aos="fade">
+                <div class="row">
+                  <div class="col-lg-7">
+                    <p class="phase__block_subtitle phase-1__block_subtitle">
+                      <span
+                        ><strong
+                          >Если товар, который Вы выбрали уже продается</strong
+                        ></span
+                      >
+                      - обязательно посетите магазин или купите образец, изучите
+                      его ближе, чтобы Вы точно понимали с чем планируете
+                      работать, понимая все свойства продукции.
+                    </p>
+
+                    <p class="phase__block_subtitle phase-1__block_subtitle">
+                      <span><strong>Почитайте отзывы</strong></span>
+                      как на иностранных так и на местных сайтах. Большое
+                      количество негативных так или иначе повлияет и на
+                      репутацию Вашей продукции, т.к. Ваши клиенты будут
+                      сталкиваться именно с такими же проблемами. Чем меньшая
+                      доля негативных отзывов, тем меньше вероятность что они
+                      будут и от Ваших клиентов.
+                    </p>
+                    <p class="phase__block_subtitle phase-1__block_subtitle">
+                      <span
+                        ><strong
+                          >Для страховки держите в памяти товар №2</strong
+                        ></span
+                      >
+                      , чтобы Вы могли переключиться на него в случае если не
+                      сработает план А.
+                    </p>
+                  </div>
+
+                  <div class="col-lg-5">
+                    <img src="img/phase1_pic4.png" alt="" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="phase-2 phase" id="phase2">
+        <div class="container">
+          <div class="phase__top text-center">
+            <img
+              src="img/Placeholders/orange.svg"
+              alt="Этап 2"
+              class="phase__top-img rotate-in-ver2"
+              style="width: 77px;"
+            />
+            <h2 class="phase__top-title">Этап 2.</h2>
+            <p class="phase__top-subtitle">Оценить прибыль</p>
+          </div>
+          <div class="row">
+            <div class="col-12">
+              <div class="phase__block phase-2__block-1" data-aos="fade">
+                <div class="row">
+                  <div class="col-lg-6">
+                    <img src="img/phase2_pic.png" alt="" />
+                  </div>
+                  <div
+                    class="col-lg-6 d-flex flex-column justify-content-center"
+                  >
+                    <p class="phase__block_subtitle phase-2__block_subtitle">
+                      <span><strong>Товар выбран - отлично! </strong></span
+                      >Теперь нужно сделать предварительные расчеты Вашей бизнес
+                      модели. Но сперва ответьте на вопрос:
+                    </p>
+
+                    <p class="phase__block_subtitle phase-2__block_subtitle">
+                      <span
+                        ><strong
+                          >“Сколько Вы хотите зарабатывать ежемесячно?”</strong
+                        ></span
+                      >
+                      Сумма должна быть конкретной. Это Ваша цель по которой в
+                      будущем будете измерять успех проекта.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-xl-6 d-flex align-items-end">
+              <div class="phase__block phase-2__block-2" data-aos="fade-right">
+                <p class="phase__block_subtitle phase-2__block_subtitle">
+                  <span
+                    ><strong
+                      >Найдите на одном из китайских сайтов Ваш товар
+                    </strong></span
+                  >и определите среднюю стоимость за единицу. Сейчас нам важно
+                  общее понимание ориентировочной стоимости товара в закупке
+                  (рекомендуем сайт
+                  <a href="https://www.alibaba.com/">alibaba.com</a>)
+                </p>
+
+                <p class="phase__block_subtitle phase-2__block_subtitle">
+                  <span><strong>Сделайте предварительный расчет</strong></span>
+                  стоимости доставки планируемой партии у эксперта компании
+                  <strong>Fialan 0442233232</strong> или отправив запрос по
+                  форме.
+                </p>
+                <p class="phase__block_subtitle phase-2__block_subtitle">
+                  <span
+                    ><strong
+                      >Определите среднюю продажную стоимость</strong
+                    ></span
+                  >
+                  Вашего товара. Для этого воспользуйтесь сайтами-агрегаторами,
+                  например
+                  <a href="https://hotline.ua/">https://hotline.ua/</a>,
+                  <a href="http://ek.ua">http://ek.ua</a>,
+                  <a href="https://price.ua">https://price.ua</a>,
+                  <a href="https://prom.ua/">https://prom.ua/</a>
+                </p>
+                <div class="text-center">
+                  <img src="img/phase2_pic2.png" alt="" />
+                </div>
+              </div>
+            </div>
+            <div class="col-xl-6">
+              <div class="phase__block phase-2__block-3" data-aos="fade-left">
+                <div class="text-center">
+                  <img src="img/phase2_pic3.png" alt="" />
+                </div>
+                <p class="phase__block_subtitle phase-2__block_subtitle">
+                  <span
+                    ><strong
+                      >Теперь выведите среднюю маржинальность
+                    </strong></span
+                  >продажи одной единицы по формуле: продажная стоимость -
+                  (закупочная стоимость товара + стоимость логистики) / на
+                  количество шт. в партии. Из полученной цифры вычтите примерно
+                  30% на такие расходы как обеспечение закупки (комиссии),
+                  маркетинг, обеспечение продаж.
+                </p>
+
+                <p class="phase__block_subtitle phase-2__block_subtitle">
+                  <span
+                    ><strong
+                      >Теперь разделите цифру с желаемым месячным чистым
+                      доходом</strong
+                    ></span
+                  >
+                  на получившуюся среднюю маржинальность с одной единицы
+                  продукции. Вы получили количество единиц продукции, которое
+                  Вам нужно реализовывать за месяц для достижения результата по
+                  чистой прибыли.
+                </p>
+                <p class="phase__block_subtitle phase-2__block_subtitle">
+                  <span
+                    ><strong
+                      >Зная количество продукции для закупки</strong
+                    ></span
+                  >
+                  рассчитайте бюджет всего проекта. Не забудьте пересчитать
+                  стоимость логистики с поправкой на новый объем закупки.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="phase-3 phase" id="phase3">
+        <div class="container">
+          <div class="phase__top">
+            <img
+              src="img/Placeholders/yellow.svg"
+              alt="Этап 3"
+              class="phase__top-img rotate-in-ver3"
+              style="width: 77px;"
+            />
+            <h2 class="phase__top-title">Этап 3.</h2>
+            <p class="phase__top-subtitle">Найти и проверить поставщика</p>
+          </div>
+          <div class="row">
+            <div class="col-12">
+              <div class="phase__block phase-3__block-1" data-aos="fade">
+                <div class="row">
+                  <div class="col-lg-6 text-center">
+                    <img src="img/phase3_pic.png" alt="" />
+                  </div>
+                  <div
+                    class="col-lg-6 d-flex flex-column justify-content-center"
+                  >
+                    <p class="phase__block_subtitle phase-3__block_subtitle">
+                      <span
+                        ><strong
+                          >Итак, Вы уже понимаете что будете закупать и сколько
+                          сможете на этом заработать.
+                        </strong></span
+                      >Следующей задачей стоит найти поставщика и убедиться в
+                      его благонадежности. Существует несколько способов поиска
+                      поставщиков.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-6">
+              <div class="phase__block phase-3__block-2" data-aos="fade-right">
+                <p class="phase__block_subtitle phase-3__block_subtitle">
+                  <span><strong>Самостоятельный поиск. </strong></span>В Китае
+                  есть множество интернет площадок, на которых можно найти
+                  поставщиков необходимой продукции.
+                </p>
+                <p class="phase__block_subtitle phase-3__block_subtitle">
+                  <strong>Наиболее популярные из них: </strong>alibaba.com,
+                  1688.com, madeinchina.com и другие. Большая часть из них на
+                  китайском языке. Вы можете воспользоваться специальным
+                  плагином google translate для браузера Google Chrome чтобы
+                  посещаемые Вами страницы автоматически переводились или найти
+                  поставщика на
+                  <a href="https://www.alibaba.com/">alibaba.com</a> по нашей
+                  пошаговой инструкции.
+                </p>
+                <div class="btn-block">
+                  <a
+                    href="https://fialan.ua/news/vagno-znat/kak-pokupat-na-alibaba/"
+                    class="connect-link small-btn"
+                    >Смотреть инструкцию</a
+                  >
+                </div>
+                <div class="text-center">
+                  <img src="img/phase3_pic2.png" alt="" />
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="phase__block phase-3__block-3" data-aos="fade">
+                <div class="text-center">
+                  <img src="img/phase3_pic3.png" alt="" />
+                </div>
+                <p class="phase__block_subtitle phase-3__block_subtitle">
+                  <span><strong>Посещение выставки. </strong></span>Наиболее
+                  результативным вариантом является посещение профильной
+                  выставки в Китае. Там Вы сможете лично познакомиться с
+                  представителями компании-поставщика, оценить качество
+                  продукции, договориться о наиболее выгодных условиях
+                  сотрудничества и, в некоторых случаях, посетить производство.
+                  Для выбора выставки воспользуйтесь нашим календарем выставок в
+                  Китае.
+                </p>
+                <div class="exhibitions-btn">
+                  <a
+                    href="https://fialan.ua/services/kalendar-vystavok/"
+                    class="connect-link small-btn"
+                    >Смотреть выставки</a
+                  >
+                  <a href="https://bt.fialan.ua/" class="connect-link small-btn"
+                    >Организовать бизнес тур</a
+                  >
+                  <a
+                    href="https://fialan.ua/canton/"
+                    class="connect-link small-btn"
+                    >Посетить<br />
+                    Canton Fair</a
+                  >
+                </div>
+              </div>
+            </div>
+            <!-- <div class="col-lg-4">
+              <div class="phase__block phase-3__block-4" data-aos="fade-left">
+                <p class="phase__block_subtitle phase-3__block_subtitle">
+                  <span
+                    ><strong
+                      >Аутсорсинг процесса поиска в экспертную компанию.
+                    </strong></span
+                  >Напишите техническое задание и положитесь напрофессионалов.
+                  Компания Fialan выполнит поиск нужной продукции или
+                  производителя в кратчайшие сроки. В результате того что будут
+                  проработаны данные и локального интернета, Вы получите
+                  оптимальное предложение по своей продукции.
+                </p>
+                <div class="text-center">
+                  <img src="img/phase3_pic4.png" alt="" />
+                </div>
+              </div>
+            </div> -->
+          </div>
+          <div class="row">
+            <div class="col-12">
+              <div class="phase__block phase-3__block-5" data-aos="fade">
+                <div class="row">
+                  <div class="col-12 text-center">
+                    <p class="phase__block_subtitle phase-3__block_subtitle">
+                      <span
+                        ><strong
+                          >После того как Вы выбрали несколько поставщиков,
+                        </strong></span
+                      ><br />необходимо провести их проверку на благонадежность.
+                      Вы можете это сделать как самостоятельно, воспользовавшись
+                      нашими советами
+                      <a
+                        href="https://fialan.ua/chek-list-udalennoj-proverki-postavschikov-v-kitae/"
+                        >как удаленно проверить поставщика</a
+                      >
+                      так и поручив выполнить аттестацию или инспекцию компании
+                      Fialan.
+                    </p>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-xl-6 text-center">
+                    <img src="img/phase3_pic5.png" alt="" />
+                  </div>
+                  <div class="col-xl-6">
+                    <p class="phase__block_subtitle phase-3__block_subtitle">
+                      <span><strong>Аттестация поставщика </strong></span
+                      ><br />проводится сотрудником юридического департамента
+                      компании Fialan в Китае. Мы связываемся с Вашим
+                      поставщиком, запрашиваем пакет документов, проверяем их.
+                      Также делаем запрос в ТПП Китая для подтверждения
+                      полученных данных. Результатом такой аттестации является
+                      подробный отчет с выводами, замечаниями и рекомендациями
+                      эксперта.
+                    </p>
+                    <p class="phase__block_subtitle phase-3__block_subtitle">
+                      <span><strong>Инспекция поставщика </strong></span
+                      ><br />это более глубокий анализ компании. В этом случае
+                      инспектор компании Fialan выезжает непосредственно по
+                      адресу нахождения фабрики и выполняет подробное
+                      инспектирование производственных помещений, складов,
+                      административных зданий. Работа сопровождается подробным
+                      фотоотчетом. Такая проверка позволяет получить максимум
+                      информации о фактическом производстве. В результате Вы
+                      получите подробный отчет с выводами эксперта и
+                      фотоматериалами. Инспекция включает в себя и
+                      документальную аттестацию.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="phase-4 phase" id="phase4">
+        <div class="container">
+          <div class="phase__top text-center">
+            <img
+              src="img/Placeholders/green.svg"
+              alt="Этап 4"
+              class="phase__top-img rotate-in-ver4"
+              style="width: 77px;"
+            />
+            <h2 class="phase__top-title">Этап 4.</h2>
+            <p class="phase__top-subtitle">
+              Договориться и зафиксировать условия
+            </p>
+          </div>
+          <div class="row">
+            <div class="col-12">
+              <div class="phase__block phase-4__block-1" data-aos="fade">
+                <div class="row">
+                  <div
+                    class="col-lg-6 d-flex align-items-center justify-content-center"
+                  >
+                    <img src="img/phase4_pic.png" alt="" />
+                  </div>
+                  <div
+                    class="col-lg-6 d-flex flex-column justify-content-center"
+                  >
+                    <p class="phase__block_subtitle phase-4__block_subtitle">
+                      <span
+                        ><strong>После того как поставщик выбран </strong></span
+                      >необходимо составить точный заказ, описать подробно все
+                      характеристики и дополнительные опции продукции, которые
+                      для Вас важны. Чем подробней Вы составите свой запрос, тем
+                      точнее будет выставленный счет, который не придется
+                      переделывать после уточнения нюансов.
+                    </p>
+                    <p class="phase__block_subtitle phase-4__block_subtitle">
+                      Для того чтобы все договоренности были соблюдены
+                      <strong
+                        >заключите с поставщиком контракт на закупку</strong
+                      >. Компания Fialan Shangai Import&Export Co LTD,
+                      зарегистрированная в Китае, может заключать контракты
+                      напрямую с Вашими поставщиками от своего имени действуя в
+                      Ваших интересах. Это позволит значительно минимизировать
+                      риски работая с китайскими партнерами.
+                    </p>
+                    <p class="phase__block_subtitle phase-4__block_subtitle">
+                      <strong
+                        >Обязательно пропишите в Контракте условие, </strong
+                      >что после предоплаты, по факту готовности продукции Вы
+                      проведете контроль перед отгрузкой и только потом оплатите
+                      остаток.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-6 d-flex align-items-end">
+              <div class="phase__block phase-4__block-2" data-aos="fade-right">
+                <p class="phase__block_subtitle phase-4__block_subtitle">
+                  <span><strong>Персонал компании Fialan </strong></span>в
+                  Гуанчжоу позволяет быть Вашими ногами, глазами, ушами и руками
+                  в Китае. Эксперты готовы выполнить любое поручения по
+                  взаимодействию с Вашими партнерами от Вашего имени и в Ваших
+                  интересах. Контроль товара перед отгрузкой позволяет
+                  своевременно выявить брак и решить все вопросы еще “на
+                  берегу”.
+                </p>
+
+                <p class="phase__block_subtitle phase-4__block_subtitle">
+                  <span><strong>За неделю до готовности</strong></span>
+                  и даты планируемого контроля отгрузки предоставьте эксперту
+                  компании Fialan итоговые инвойс (Invoice ) и упаковочный лист
+                  (Packing List) а также все документы от поставщика,
+                  необходимые для экспортного оформления Вашей товарной партии.
+                  Мы проверим и дадим свои рекомендации, чтобы Ваш импорт из
+                  Китая был успешным.
+                </p>
+                <div class="btn-block">
+                  <a
+                    href="https://fialan.ua/news/vagno-znat/desyat-faktov-o-komande-fialan/"
+                    class="small-btn connect-link"
+                    >10 фактов о комнде Fialan</a
+                  >
+                </div>
+
+                <div class="text-center">
+                  <img src="img/phase4_pic2.png" alt="" />
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-6 d-flex align-items-end">
+              <div class="phase__block phase-2__block-3" data-aos="fade=left">
+                <div class="text-center">
+                  <img src="img/phase4_pic3.png" alt="" />
+                </div>
+
+                <p class="phase__block_subtitle phase-2__block_subtitle">
+                  Когда все формальности по экспортным документам улажены,
+                  подтверждайте отправку груза транспортной компании и
+                  приступайте к продаже товара.
+                </p>
+                <p class="phase__block_subtitle phase-2__block_subtitle">
+                  <span
+                    ><strong
+                      >У Вас должны быть проработаны каналы продажи Ваших
+                      товаров:</strong
+                    ></span
+                  >
+                  сайт, магазин, маркет-плейсы или доски объявлений. Начните
+                  продажи по предзаказу. По нашим данным за время пока товар
+                  доставляется можно получить до 70% предзаказов!
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="phase-5 phase" id="phase5">
+        <div class="container">
+          <div class="phase__top">
+            <img
+              src="img/Placeholders/blue.svg"
+              alt="Этап 5"
+              class="phase__top-img rotate-in-ver5"
+              style="width: 77px;"
+            />
+            <h2 class="phase__top-title">Этап 5.</h2>
+            <p class="phase__top-subtitle">Принять товар, оценить качество</p>
+          </div>
+          <div class="row">
+            <div class="col-lg-4">
+              <div class="phase__block phase-5__block-1" data-aos="fade-right">
+                <div class="text-center">
+                  <img src="img/phase5_pic.png" alt="" />
+                </div>
+                <p class="phase__block_subtitle phase-5__block_subtitle">
+                  <strong
+                    >Перевозчик заранее предупредит Вас о дате выдачи груза. </strong
+                  >Подготовьте место, пригодное для Вашего товара. Помещение
+                  должно соответствовать нормам и рекомендациям к хранению
+                  именно Вашей продукции.
+                </p>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="phase__block phase-5__block-2" data-aos="fade">
+                <p class="phase__block_subtitle phase-5__block_subtitle">
+                  <strong>Примите от перевозчика товар </strong>согласно
+                  упаковочному листу. Пересчитайте товар сразу. Претензии
+                  постфактум будет решить сложней.
+                </p>
+                <div class="text-center">
+                  <img src="img/phase5_pic2.png" alt="" />
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="phase__block phase-5__block-3" data-aos="fade-left">
+                <div class="text-center">
+                  <img src="img/phase5_pic3.png" alt="" />
+                </div>
+                <p class="phase__block_subtitle phase-5__block_subtitle">
+                  <strong>Оцените качество полученной продукции, </strong
+                  >соответствие заявленным требованиям поставщику.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="phase-6 phase" id="phase6">
+        <div class="container">
+          <div class="phase__top text-center">
+            <img
+              src="img/Placeholders/blue2.svg"
+              alt="Этап 6"
+              class="phase__top-img rotate-in-ver6"
+              style="width: 77px;"
+            />
+            <h2 class="phase__top-title">Этап 6.</h2>
+            <p class="phase__top-subtitle">
+              Продать, получить прибыль
+            </p>
+          </div>
+          <div class="row">
+            <div class="col-12">
+              <div class="phase__block phase-6__block-1" data-aos="fade">
+                <div class="row">
+                  <div
+                    class="col-lg-6 d-flex align-items-center justify-content-center"
+                  >
+                    <img src="img/phase6_pic.png" alt="" />
+                  </div>
+                  <div
+                    class="col-lg-6 d-flex flex-column justify-content-center"
+                  >
+                    <p class="phase__block_subtitle phase-6__block_subtitle">
+                      <span
+                        ><strong
+                          >Время приступать к активным продажам.
+                        </strong></span
+                      >Начните с информирования клиентов, сделавшие предзаказ а
+                      также тех, кто добавил Ваши товар в свои желания.
+                    </p>
+                    <p class="phase__block_subtitle phase-6__block_subtitle">
+                      <span
+                        ><strong
+                          >Тестируйте как можно большее количество каналов
+                          продаж.
+                        </strong></span
+                      >Не вкладывайте сразу весь бюджет, пробуйте небольшие
+                      отрезки времени. Отдавайте предпочтения каналам с
+                      наибольшей конверсией.
+                    </p>
+                    <p class="phase__block_subtitle phase-6__block_subtitle">
+                      <strong
+                        >Наиболее популярный и действенный канал и способ продаж
+                        это<span> лэндинг </span></strong
+                      >с настроенной таргетированной контекстной рекламой в
+                      google, facebook, instagram. Если у вас не хватает
+                      экспертности в этих вопросах, обратитесь к специалисту.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12">
+              <div class="phase__block phase-6__block-2" data-aos="fade">
+                <div class="row">
+                  <div
+                    class="col-lg-6 d-flex flex-column justify-content-center"
+                  >
+                    <p class="phase__block_subtitle phase-6__block_subtitle">
+                      <span><strong>Всегда помните, какой бюджет </strong></span
+                      >на организацию продаж и маркетинга Вы планировали при
+                      расчете проекта. Вы не должны выходить за рамки заранее
+                      планируемого бюджета. В противном случае Вы не получите
+                      ожидаемую прибыль.
+                    </p>
+                    <p class="phase__block_subtitle phase-6__block_subtitle">
+                      <strong
+                        >Для правильного анализа считайте свои расходы/доходы
+                        ежедневно, </strong
+                      >еженедельно и ежемесячно Это позволит Вам прогнозировать
+                      продажи в будущем. Всегда отталкивайтесь от самых низких
+                      показателей. Посчитайте на какой период хватит товара и
+                      планируйте следующую закупку.
+                    </p>
+                    <p class="phase__block_subtitle phase-6__block_subtitle">
+                      <strong>Зафиксируйте прибыль и динамику продаж. </strong
+                      >Это позволит Вам прогнозировать продажи в будущем. Всегда
+                      отталкивайтесь от самых низких показателей. Посчитайте на
+                      какой период хватит товара и планируйте следующую закупку.
+                    </p>
+                    <p class="phase__block_subtitle phase-6__block_subtitle">
+                      <strong
+                        >Часть от чистой прибыли вкладывайте в развитие продаж. </strong
+                      >Не забывайте уделять внимание сервису и коммуникациям с
+                      клиентами.
+                    </p>
+                  </div>
+                  <div
+                    class="col-lg-6 d-flex align-items-center justify-content-center"
+                  >
+                    <img src="img/phase6_pic2.png" alt="" />
+                  </div>
+                </div>
+                <br />
+                <p>
+                  Также качайте наше пособие
+                  <a href="https://fialan.ua/bit-v-plyuse-rabotaya-s-kitaem/"
+                    >“Как всегда быть в плюсе, работая с Китаем”</a
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="questions">
+        <div class="container px-2">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="questions__title">
+                <h2 class="questions__title_ques">Остались вопросы?</h2>
+                <h3 class="questions__title_need">Нужна консультация?</h3>
+                <p>отправьте нам сообщение и мы свяжемся с Вами</p>
+              </div>
+              <form class="questions__form" id="form" data-aos="fade">
+                <input
+                  id="formName"
+                  type="text"
+                  name="name"
+                  placeholder="Имя"
+                  class="fade-focus"
+                  required
+                />
+                <input
+                  id="formPhone"
+                  type="phone"
+                  name="phone"
+                  placeholder="Телефон"
+                  class="fade-focus"
+                  required
+                />
+                <input
+                  id="formEmail"
+                  type="email"
+                  name="email"
+                  placeholder="E-mail"
+                  class="fade-focus"
+                  required
+                />
+                <textarea
+                  name="message"
+                  id="formMessage"
+                  cols="30"
+                  rows="5"
+                  placeholder="Введите сообщение"
+                  class="fade-focus"
+                  required
+                ></textarea>
+                <input
+                  class="uForm__extended"
+                  name="nospam"
+                  type="text"
+                  value="uform-empty"
+                  required
+                />
+                <div class="form-error">
+                  <p id="uForm__error-msg" class="uForm__error-msg"></p>
+                </div>
+                <button class="connect-link form-button" type="submit">
+                  Связаться с нами
+                </button>
+              </form>
+              <div id="uForm__overlay" class="uForm__overlay"></div>
+
+              <div id="uForm__modal" class="uForm__modal">
+                <p class="uForm__modal-text">Запрос успешно отправлен</p>
+                <button class="">Закрыть</button>
+              </div>
+            </div>
+            <div class="col-md-6 position-relative d-none d-md-block">
+              <img
+                class="questions-img"
+                src="img/questions_pic.png"
+                alt="Есть вопросы?"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+    
+      <footer class="footer">
+        <div class="container">
+          <div class="copyright">
+            <p>&copy;Fialan company. All rights reserved</p>
+            <a class="to-top"><img src="img/arrow-to-top.png" alt="Наверх"/></a>
+          </div>
+        </div>
+      </footer>
+
+      <div class="bg-shape1 bg-shape">
+        <img src="img/background/blue_1.png" alt="" />
+      </div>
+      <div class="bg-shape2 bg-shape">
+        <img src="img/background/blue_2.png" alt="" />
+      </div>
+      <div class="bg-shape3 bg-shape">
+        <img src="img/background/blue_3.png" alt="" />
+      </div>
+      <div class="bg-shape4 bg-shape">
+        <img src="img/background/blue_4.png" alt="" />
+      </div>
+      <div class="bg-shape5 bg-shape">
+        <img src="img/background/blue_5.png" alt="" />
+      </div>
+      <div class="bg-shape6 bg-shape">
+        <img src="img/background/blue_6.png" alt="" />
+      </div>
+      <div class="bg-shape7 bg-shape">
+        <img src="img/background/blue_7.png" alt="" />
+      </div>
+      <div class="bg-shape6 bg-shape">
+        <img src="img/background/blue_6.png" alt="" />
+      </div>
+      <div class="bg-shape8 bg-shape">
+        <img src="img/background/blue_8.png" alt="" />
+      </div>
+      <div class="bg-shape9 bg-shape">
+        <img src="img/background/blue_9.png" alt="" />
+      </div>
+      <div class="bg-shape10 bg-shape">
+        <img src="img/background/blue_10.png" alt="" />
+      </div>
+      <div class="bg-shape11 bg-shape">
+        <img src="img/background/blue_11.png" alt="" />
+      </div>
+      <div class="bg-shape12 bg-shape">
+        <img src="img/background/blue_12.png" alt="" />
+      </div>
+      <div class="bg-shape13 bg-shape">
+        <img src="img/background/blue_13.png" alt="" />
+      </div>
+    </main>
+
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="libs/uForm/js/script.js"></script>
+    <script src="libs/aos/dist/aos.js"></script>
+    <script src="js/scripts.js"></script>
+  </body>
+</html>
